@@ -58,7 +58,7 @@ export default function PantallaPuerta() {
 
                         {/* Botones de Configuración y Registros */}
                         <View style={styles.bottomButtons}>
-                            <TouchableOpacity style={styles.configButton} onPress={() => router.push('/configuracionDispositivo')}>
+                            <TouchableOpacity style={styles.configButton} onPress={() => router.push('/configuracionDispositivo' as any)}>
                                 <FontAwesome5 name="file-alt" size={20} color="#1E1E1E" style={styles.buttonIcon} />
                                 <Text style={styles.configButtonText}>Configuración</Text>
                             </TouchableOpacity>

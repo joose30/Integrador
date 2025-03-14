@@ -70,7 +70,7 @@ import {
                 {/* Opciones extra */}
                 <TouchableOpacity
                 style={styles.optionRow}
-                onPress={() => router.push('/gestionarUsuarios')}  // <--- Ajustar aquí
+                onPress={() => router.push('/gestionarUsuarios' as any)}  // <--- Ajustado
                 >
                 <Text style={styles.optionText}>Gestionar perfiles del dispositivo IoT</Text>
                 <Ionicons name="chevron-forward-outline" size={20} color="#1E1E1E" />
